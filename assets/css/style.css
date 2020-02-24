@@ -1,10 +1,7 @@
-html,
-body {
-  height: 100%;
-}
 body {
   background-image: url("/assets/img/bg.jpg");
-  background-position: top;
+  min-height: 100vh;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -12,4 +9,8 @@ body {
 .jumbotron {
   background: none;
   color: white;
+}
+
+.card {
+  min-height: 27rem;
 }

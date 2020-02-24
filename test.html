@@ -18,15 +18,14 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
-    <script defer src="./assets/js/script.js"></script>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <script defer src="./assets/js/script.js"></script>
     <title>JavaScript Code Quiz</title>
   </head>
 
@@ -57,87 +56,93 @@
       </div>
     </nav>
     <div class="container">
-      <div class="row text-white">
-        <div class="col d-flex align-items-center flex-column">
+      <div id="timer" class="row text-white">
+        <div  class="col d-flex align-items-center flex-column">
           <h1>Time Remaining</h1>
           <h1><span id="minuits">00</span>:<span id="seconds">00</span></h1>
         </div>
       </div>
-
       <div class="row">
         <div class="col">
-          <div class="jumbotron border">
+          <div id="jumbotron" class="jumbotron border">
             <h1 class="display-4">Click start quiz when ready.</h1>
             <hr class="my-4" />
             <p class="lead">
               <button id="startBtn" class="btn btn-primary btn-lg">
-                Start the quiz
+                Start quiz
               </button>
             </p>
           </div>
+          <div class="row">
+            <div class="col">
+              <div id="resultCard" class="jumbotron border d-none">
+                <h1 class="display-4">Your result is <span id="result"></span> </h1>
+                <hr class="my-4" />
+                <p class="lead">
+                  Enter your initials and click save to save your result and view high scores table
+                </p>
+                <p class="lead">
+                  <form class="form-inline my-2 my-lg-0">
+                    <input id="initials" class="form-control mr-sm-2" type="text" placeholder="Enter our initials">
+                    <button id="save" class="btn btn-primary my-2 my-sm-0" type="submit">Save</button>
+                  </form>
+                </p>
+              </div>
           <div
             id="card"
             class="card d-none border-light mx-auto text-white bg-transparent"
           >
             <div class="card-header">
-              <h1 class="card-title">1- what is bla bla</h1>
+              <h1 id="question" class="card-title"></h1>
             </div>
             <div class="card-body">
               <div class="custom-control custom-radio">
                 <input
                   type="radio"
-                  class="custom-control-input"
+                  class="custom-control-input radio"
                   id="option1"
                   name="answer"
                 />
-                <label class="custom-control-label" for="option1"
-                  >Option 1</label
-                >
+                <label class="custom-control-label" for="option1"></label>
               </div>
               <br />
               <div class="custom-control custom-radio">
                 <input
                   type="radio"
-                  class="custom-control-input"
+                  class="custom-control-input radio"
                   id="option2"
                   name="answer"
-                  value="option2"
                 />
-                <label class="custom-control-label" for="option2"
-                  >Option 2</label
-                >
+                <label class="custom-control-label" for="option2"></label>
               </div>
               <br />
               <div class="custom-control custom-radio">
                 <input
                   type="radio"
-                  class="custom-control-input"
+                  class="custom-control-input radio"
                   id="option3"
                   name="answer"
-                  value="option3"
                 />
-                <label class="custom-control-label" for="option3"
-                  >Option 3</label
-                >
+                <label class="custom-control-label" for="option3"></label>
               </div>
               <br />
               <div class="custom-control custom-radio">
                 <input
                   type="radio"
-                  class="custom-control-input"
+                  class="custom-control-input radio"
                   id="option4"
                   name="answer"
-                  value="option4"
                 />
-                <label class="custom-control-label" for="option4"
-                  >Option 4</label
-                >
+                <label class="custom-control-label" for="option4"></label>
               </div>
               <br />
             </div>
             <div class="card-footer">
               <button id="previousBtn" class="btn btn-primary">
                 Previous
+              </button>
+              <button id="submitBtn" class="btn btn-danger float-right d-none">
+                Submit your answers
               </button>
               <button id="nextBtn" class="btn btn-primary float-right">
                 Next
