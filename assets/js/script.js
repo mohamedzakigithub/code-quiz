@@ -13,6 +13,7 @@ var secondsEl = document.querySelector("#seconds");
 var resultEl = document.querySelector("#result");
 var initials = document.querySelector("#initials");
 var saveBtn = document.querySelector("#save");
+var alertEl = document.querySelector("#alert");
 var resultCardEl = document.querySelector("#resultCard");
 var time = 120;
 var currCard = 0;
@@ -160,7 +161,7 @@ submitBtn.addEventListener("click", function(event) {
 saveBtn.addEventListener("click", function(event) {
   event.preventDefault();
   if (initials.value.trim() === "") {
-    console.log("blank");
+    alertEl.classList.remove("d-none");
   } else {
     score = endQuiz();
     scoreObj.initials = initials.value;
