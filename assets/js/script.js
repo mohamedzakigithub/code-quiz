@@ -25,7 +25,7 @@ var scoreObj = {
 var questionsList = [
   {
     question: "_____ is not a primative data type in JavaScript.",
-    answers: ["Number", "Array", "String", "null"],
+    answers: ["Number", "Array", "String", "Null"],
     correctAnswer: "Array",
     selectedAnswer: ""
   },
@@ -36,20 +36,20 @@ var questionsList = [
     selectedAnswer: ""
   },
   {
-    question: "_____ is the logical AND operator in JavaScript",
+    question: "_____ is the symbol of logical AND operator in JavaScript.",
     answers: ["+", "&&", "AND", "&"],
     correctAnswer: "&&",
     selectedAnswer: ""
   },
   {
     question:
-      "_____ function is used to display a string or a variable to the console",
+      "_____ function is used to display a string or a variable to the console.",
     answers: ["print()", "text.log()", "write()", "console.log()"],
     correctAnswer: "console.log()",
     selectedAnswer: ""
   },
   {
-    question: "In JavaScript DOM stands for _____",
+    question: "In JavaScript, DOM stands for _____.",
     answers: [
       "Day Of Month",
       "Document Object Model",
