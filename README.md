@@ -8,7 +8,7 @@ This is an app that includes a timed quiz to test your JavaScript basic knowledg
 
 ## Table of Contents
 
-- [Folders and files structure](#Folders-and-files-structue)
+- [Folders and files structure](#Folders-and-files-structure)
 - [HTML](#HTML)
 - [Styling and responsiveness](#Styling-and-responsiveness)
 - [Quiz app](#Quiz-app)
