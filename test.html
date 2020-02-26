@@ -3,21 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -25,8 +10,8 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <script defer src="assets/js/script.js"></script>
-    <title>JavaScript Code Quiz</title>
+    
+    <title>JavaScript Code Quiz | Quiz</title>
   </head>
 
   <body>
@@ -59,12 +44,13 @@
       <div id="timer" class="row text-white">
         <div  class="col d-flex align-items-center flex-column">
           <h1>Time Remaining</h1>
-          <h1><span id="minuits">00</span>:<span id="seconds">00</span></h1>
+          <h1 style="color: red;"><span id="minutes" >00</span>:<span id="seconds">00</span></h1>
         </div>
       </div>
       <div class="row">
         <div class="col">
-          <div id="jumbotron" class="jumbotron border">
+          <div id="jumbotron" class="jumbotron border" style="background: none;
+          color: white;">
             <h1 class="display-4">Click start quiz when ready.</h1>
             <hr class="my-4" />
             <p class="lead">
@@ -75,7 +61,8 @@
           </div>
           <div class="row">
             <div class="col">
-              <div id="resultCard" class="jumbotron border d-none">
+              <div id="resultCard" class="jumbotron border d-none" style="background: none;
+              color: white;">
                 <h1 class="display-4">Your result is <span id="result"></span> </h1>
                 <hr class="my-4" />
                 <p class="lead">
@@ -157,5 +144,21 @@
         </div>
       </div>
     </div>
-  </body>
+    <script src="assets/js/script.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    </body>
 </html>
