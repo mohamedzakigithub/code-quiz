@@ -30,7 +30,7 @@ var scoreObj = {
 
 var questionsList = [
   {
-    question: "_____ is not a primative data type in JavaScript.",
+    question: "_____ is not a primitive data type in JavaScript.",
     answers: ["Number", "Array", "String", "Null"],
     correctAnswer: "Array",
     selectedAnswer: ""

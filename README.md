@@ -131,7 +131,7 @@ var questionsList = [
 
 ## Event listeners
 
-Add event listeners to all the buttons in the app and set callback functions to east listener.
+Add event listeners to all the buttons in the app and set callback functions to each listener.
 
 ```javascript
 // Event listener for the start quiz button that calls the startQuiz function.
@@ -194,7 +194,7 @@ saveBtn.addEventListener("click", function(event) {
 });
 ```
 
-### functions
+### Functions
 
 In this section of the quiz app we define functions that will be called by event listeners and perform different tasks and calculations. (see code comments for a description of each function).
 
