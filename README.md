@@ -4,7 +4,7 @@
 
 This is an app that includes a timed quiz to test your JavaScript basic knowledge. The quiz is a series of multiple choice single answer questions and includes functionality to store and display scores history using local storage.
 
-[Click here to the view the deployed website on github-pages](https://mohamedzakigithub.github.io/homework-week3-code-quiz/)
+[Click here to the view the deployed website on github-pages](https://mohamedzakigithub.github.io/homework-week4-code-quiz/)
 
 ## Table of Contents
 
