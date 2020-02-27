@@ -31,7 +31,7 @@ This is is home page of the app. the page has a button with a link to the quiz p
 
 This is the file that will serve the quiz.
 
-### scores
+### scores.html
 
 This page has a table which is pupolated with the scores history in the browsers local storage.
 
