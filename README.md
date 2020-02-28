@@ -13,6 +13,7 @@ This is an app that includes a timed quiz to test your JavaScript basic knowledg
 - [Styling and responsiveness](#Styling-and-responsiveness)
 - [Quiz app](#Quiz-app)
 - [Scores](#Scores)
+- [Further development](#Further-development)
 
 ## Folders and files structure
 
@@ -353,3 +354,10 @@ function compare(a, b) {
   return comparison;
 }
 ```
+
+## Further development
+
+This is a modified version of the app featuring sliding question cards on clicking the next/previous buttons and tha ability to sort the scores table by scores by ascending or descending order.
+
+- [Modified version on github-pages](https://mohamedzakigithub.github.io/code-quiz-new-features/)
+- [Modified version repository](https://github.com/mohamedzakigithub/code-quiz-new-features)
