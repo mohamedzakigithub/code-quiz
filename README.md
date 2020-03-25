@@ -4,17 +4,17 @@
 
 This is an app that includes a timed quiz to test your JavaScript basic knowledge. The quiz is a series of multiple choice single answer questions and includes functionality to store and display scores history using local storage.
 
-[Click here to the view the deployed website on github-pages](https://mohamedzakigithub.github.io/code-quiz/)
+[Click here to view the deployed website on github-pages](https://mohamedzakigithub.github.io/code-quiz/)
 
 ## Table of Contents
 
-- [Folders and files structure](#Folders-and-files-structure)
+- [Files and folders structure](#Files-and-folders-structure)
 - [HTML](#HTML)
 - [Styling and responsiveness](#Styling-and-responsiveness)
 - [Quiz app](#Quiz-app)
 - [Scores](#Scores)
 
-## Folders and files structure
+## Files and folders structure
 
 The app consists of three HTML files (index.html, test.html and scores.html)
 style sheets, images and JS files are located in assets folder.
@@ -353,4 +353,3 @@ function compare(a, b) {
   return comparison;
 }
 ```
-
